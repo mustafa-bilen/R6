@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+}
+/* ?? NAV FIRST FINISH */
+.first-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 5vh;
+}
+
+.nav-mid a {
+  text-decoration: none;
+  color: white;
+}
+
+.material-symbols-outlined {
+  color: white;
+}
+
+.nav-left {
+  padding-left: 4rem;
+}
+
+.nav-mid {
+  gap: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 2rem;
+}
+.notification:hover {
+  border: 1px solid blue;
+}
+
+.vigil:hover {
+  border: 1px solid blue;
+}
+.group:hover {
+  border: 1px solid blue;
+}
+
+.nav-mid a:hover {
+  color: black;
+  background-color: white;
+  width: 6vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ?? NAV FIRST END */
+
+/* !! NAV SECOND START */
+
+.second-nav {
+  background-color: #24262a;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 100vw;
+  padding: 0.9rem;
+}
+
+.second-nav-left a {
+  text-decoration: none;
+  color: white;
+}
+
+.second-nav-left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.second-nav-a {
+  word-spacing: 2rem;
+}
+
+.second-nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 2rem;
+}
+.second-nav-right a {
+  text-decoration: none;
+  color: white;
+}
+
+.btnbuy button {
+  width: 5vw;
+  height: 5vh;
+  background-color: #33fee5;
+  border: none;
+}
+.btnbuy button:hover {
+  background-color: white;
+}
+
+.battlepass {
+  width: 8vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.battlepass:hover {
+  background-color: #33fee5;
+}
+
+/* !! NAV SECOND END*/
